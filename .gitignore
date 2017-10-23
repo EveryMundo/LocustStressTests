@@ -1,3 +1,8 @@
+# ignore any CSVs used for testing!
+*.csv
+*.tsv
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
