@@ -10,7 +10,7 @@ Just `pip install locust` (a virtualenv is recommended)
 
 Place a .csv containing the URL path and parameters in the same directory as the test locustfile.
 
-Call `locust --host` and provide the hostname as the arguent.
+Call `locust --host` and provide the hostname as the arguent. This may require sudo on \*nix system so the rlimit can be increased.
 
 Example:
 
